@@ -2,7 +2,7 @@ public class App {
     public static void main(String[] args) throws Exception {
     System.out.println("Academic Result  ");
          
-        int a = 20;
+        int a = 30;
         
         if(a>=70  &&  a<=100) {
             System.out.println( " Congratultion You Have Got A ");
@@ -14,7 +14,7 @@ public class App {
         else if (a>50 && a<=59){
              System.out.println( " You Have Got C");
             }
-        else if (a>40 && a<=49){
+        else if (a>0&& a<=49){
              System.out.println( " Unfortunately You are FAILED");
             }
         
